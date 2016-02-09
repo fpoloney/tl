@@ -1,6 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+#Force LF on .jd files
+*.jd eol=lf
+
+
 # Custom for Visual Studio
 *.cs     diff=csharp
 
@@ -15,3 +19,4 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
